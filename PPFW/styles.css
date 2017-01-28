@@ -1,0 +1,99 @@
+body{
+	height:100%;
+	margin:0;
+	font-family: Times, serif;
+}
+
+.banner, .about{
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner{
+	background-image: url("panda.jpg");
+	min-height: 100%;
+}
+
+.about{
+	background-image: url("simplepanda.png");
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+}
+
+.banner div.cap{
+	position:absolute;
+	left:0;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+}
+
+.cap p.a{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+
+.a span.b{
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.about div.cap{
+	color: #E0D9D9;
+	font-size: 18px;
+}
+
+.cap p.right{
+	background-color: #111;
+	margin-left: 50%;
+	height: 100%;
+	padding: 20px;
+}
+
+.title{
+	position: relative;
+	height:60px;
+	background-color: white;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	letter-spacing: 5px;
+}
+
+
+.nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 50px;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.nav li{
+	float: right;
+}
+
+.nav li a{
+	display: inline-block;
+	color: #000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.nav li a:hover{
+	background-color: #F1F1F1;
+	color: #000;
+}
