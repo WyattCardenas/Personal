@@ -10,7 +10,7 @@ body{
 	overflow-x: hidden;
 }
 
-#header{
+header{
 	background: #E6E6E6;
 	width: 100%;
 	top: 0;
@@ -25,33 +25,33 @@ body{
 	margin: 0 auto;
 }
 
-.logo{
+header .logo{
 	float: left;
 	font-size: 15px;
 	letter-spacing: 3px;
 }
 
-.logo a{
+header .logo a{
 	text-decoration: none;
 	color: #343434;
 }
 
-.nav{
+nav{
 	float: right;
 }
 
-.nav a{
+nav a{
 	text-decoration: none;
 	color: #343434;
 }
 
-.nav li{
+nav li{
 	list-style: none;
 	float: left;
 	margin: 15px;
 }
 
-.nav li a:hover{
+nav li a:hover{
 	color: #000;
 	opacity: 1;
 }
@@ -276,7 +276,7 @@ body{
 	color: #000;
 }
 
-#footer{
+footer{
 	font-size: 14px;
 	bottom: 0;
 	text-align: center;
