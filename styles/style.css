@@ -1,0 +1,284 @@
+@font-face{
+	font-family: Cardo;
+	src: url("../fonts/cardo/Cardo-Regular.ttf");
+}
+
+body{
+	margin: auto;
+	width: 100%;
+	font-family: Cardo, Times, serif;
+	overflow-x: hidden;
+}
+
+#header{
+	background: #E6E6E6;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	border-bottom: 1px solid #DADADA;
+	opacity: 0.9;
+	z-index: 99;
+}
+
+.navi-container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #343434;
+}
+
+.nav{
+	float: right;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #343434;
+}
+
+.nav li{
+	list-style: none;
+	float: left;
+	margin: 15px;
+}
+
+.nav li a:hover{
+	color: #000;
+	opacity: 1;
+}
+
+#banner{
+	min-height: 100%;
+	background-image: url("img/background.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner-cap{
+	padding: 20% 0;
+	width: 100%;
+	text-align: center;
+}
+
+.banner-cap p{
+	background-color: #111;
+	color: #fff;
+	padding: 15px;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+
+.banner-cap span{
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+#about{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.content{
+	font-size: 16px;
+	width: 100%;
+	border: 1px solid #EDEDED;
+	background-color: #F0F0F0;
+	display: flex;
+	height: 620px;
+}
+
+.content h1{
+	letter-spacing: 3px;
+}
+
+.about{
+	width: 60%;
+	margin-top: 50px;
+	text-align: justify;
+	text-align-last: right; 
+}
+
+.about p{
+	margin-left: 20%;
+	line-height: 25px;
+}
+
+
+.about h1 img{
+	border-radius: 300px;
+	padding: 0 15px;
+	vertical-align: middle;
+}
+
+.skills{
+	padding-top: 50px;
+	padding-left: 25px;
+	display: inline-block;
+}
+
+.skills h3{
+	border-bottom: 1px solid black;
+}
+
+.bar {
+	background-color: #1a1a1a;
+	height: 15px;
+	padding: 5px;
+	width: 200px;
+	margin-left: 30px;
+	float: right;
+}
+
+.bar span{
+	display: inline-block;
+	height: 100%;
+}
+
+.bar span.html {  
+	width: 75%;
+	background-color: blue;
+}
+
+.bar span.java {
+	width: 70%;
+	background-color: red;
+}
+
+.bar span.css {
+	width: 65%;
+	background-color: lightblue;;
+}
+
+.bar span.mysql {    
+	width: 40%;
+	background-color: pink;
+}
+
+.bar span.python {
+	width: 15%;
+	background-color: violet;
+}
+
+.bar span.gaming {    
+	width: 90%;
+	background-color: yellow;
+}
+
+.bar span.photography {    
+	width: 70%;
+	background-color: grey;
+}
+
+.bar span.wushu {    
+	width: 55%;
+	background-color: green;
+}
+
+#portfolio{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.port{
+	font-size: 16px;
+	width: 100%;
+	display: flex;
+	height: 800px;
+}
+
+.port h1{
+	letter-spacing: 3px;
+}
+
+.port span{
+	font-size: 10px;
+	letter-spacing: 2px;
+}
+
+.port-content{
+	width: 100%;
+	margin-top: 50px;
+	text-align: center; 
+}
+
+#gallery {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+#gallery div {
+	position: relative;
+	float: left;
+	padding: 5px;
+}
+
+#gallery div img {
+	transition: .3s;
+}
+
+#gallery div:hover {
+	z-index: 1;
+}
+
+#gallery div:hover img {
+	transform: scale(2);
+	transition: .5s transform;
+	box-shadow: 3px 3px 5px black;
+}
+
+#contact{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container{
+	font-size: 16px;
+	width: 100%;
+	border: 1px solid #EDEDED;
+	background-color: #F0F0F0;
+	display: flex;
+	height: 270px;
+}
+
+.contact-content h1{
+	letter-spacing: 3px;
+}
+
+.contact-content{
+	width: 100%;
+	padding-top: 30px;
+	text-align: center; 
+}
+
+.contact-content img{
+	vertical-align: middle;
+}
+
+.contact-content li{
+	list-style: none;
+	display: inline-block;
+	padding: 15px;
+}
+
+.contact-content a{
+	text-decoration: none;
+	color: #000;
+}
+
+#footer{
+	font-size: 14px;
+	bottom: 0;
+	text-align: center;
+	margin-top: 50px;
+}
